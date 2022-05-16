@@ -4,13 +4,22 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "clear && jest --coverage",
+    "watch": "jest --coverage --watchAll",
     "deploy": "gh-pages -d dist",
     "eslint": "npx eslint . --fix ",
     "stylelint": "npx stylelint **/*.{css,scss} --fix",
     "webhint": "npx hint .",
     "build": "webpack",
     "start": "webpack serve --open"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^.+\\.svg$": "jest-svg-transformer"
+    },
+    "rootDir": "./tests",
+    "testEnvironment": "jsdom",
+    "verbose": true
   },
   "repository": {
     "type": "git",
@@ -24,6 +33,7 @@
   },
   "homepage": "https://github.com/rbanos-mv/capstone-2-Javascript#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
@@ -32,6 +42,9 @@
     "gh-pages": "^4.0.0",
     "hint": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "jest-svg-transformer": "^1.0.0",
     "prettier": "^2.6.2",
     "style-loader": "^3.3.1",
     "stylelint": "^14.8.2",
