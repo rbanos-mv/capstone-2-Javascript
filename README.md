@@ -2,55 +2,80 @@
 
 # Project Name
 
-> Description the project.
+> The JavaScript capstone project is about building your own web application based on an external API. You will select an API that provides data about a topic that you like and then build the webapp around it. The webapp will have 2 or 3 user interfaces (depending on the size of your team):
 
+- A home page showing a list of items that you can "like."
+- A popup window with more data about an item that you can use to comment on it or reserve it for a period of time.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML 5
+- SCSS 3
+- Javascript ES6
+- Webpack
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rbanos-mv.github.io/capstone-2-Javascript/)
 
+### Getting Started
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps:
 
 ### Prerequisites
 
+Open your terminal and navigate to the folder you would like to save the project.
+
 ### Setup
+
+Type these commands into the terminal:
+
+- git clone https://github.com/rbanos-mv/capstone-2-Javascript.git
+- cd capstone-2-Javascript
 
 ### Install
 
-### Usage
+Type this command into the terminal:
+
+- npm install
+
+### Build
+
+Type these comands into the terminal:
+
+- npm run build
+- Open dist/index.html in you web browser.
+
+### Run webpack dev server
+
+Type these comands into the terminal:
+
+- npm run start
+- Your web browser will open on localhost:8080
 
 ### Run tests
 
+Type this command into the terminal:
+
+- npm run test
+
 ### Deployment
 
-
+- npm run deploy
 
 ## Authors
 
-👤 **Author1**
+👤 **Aimal Amiri**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/aimalamiri)
+- Twitter: [@twitterhandle](https://twitter.com/Aimalamiri)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/aimal-amiri)
 
-👤 **Author2**
+👤 **Roberto A. Baños Alvarez**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@rbanos-mv](https://github.com/rbanos-mv)
+- Twitter: [@RobertoBanosMV](https://twitter.com/RobertoBanosMV)
+- LinkedIn: [Roberto A Baños Alvarez](https://linkedin.com/in/roberto-a-baños-alvarez-500766234)
 
 ## 🤝 Contributing
 
